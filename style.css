@@ -1,1 +1,39 @@
 
+body {
+  background: linear-gradient(to right, #4facfe, #00f2fe); /* fallback */
+  transition: background 0.5s ease;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.app {
+  margin-top: 100px;
+  position: relative;
+  z-index: 1;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #0078ff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005fcc;
+}
+
+#weatherResult {
+  margin-top: 20px;
+  font-size: 18px;
+}
