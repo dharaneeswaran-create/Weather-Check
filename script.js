@@ -20,13 +20,13 @@ async function getWeather() {
       const weather = data.weather[0].main.toLowerCase();
 
       if (weather.includes("cloud")) {
-  document.body.style.background = "url('https://www.thoughtco.com/clouds-that-spell-severe-weather-4089934') no-repeat center center fixed";
+  document.body.style.background = "url('cloud.jpg') no-repeat center center fixed";
 } else if (weather.includes("rain")) {
-  document.body.style.background = "url('https://www.istockphoto.com/photos/rainy-weather') no-repeat center center fixed";
+  document.body.style.background = "url('rain.jpg') no-repeat center center fixed";
 } else if (weather.includes("clear")) {
-  document.body.style.background = "url('https://www.gettyimages.in/photos/sunny-weather') no-repeat center center fixed";
+  document.body.style.background = "url('sunny.jpg') no-repeat center center fixed";
 } else if (weather.includes("snow")) {
-  document.body.style.background = "url('https://www.bbc.com/weather/features/67935835') no-repeat center center fixed";
+  document.body.style.background = "url('snow.jpg') no-repeat center center fixed";
 } else {
   document.body.style.background = "linear-gradient(to right, #4facfe, #00f2fe)";
 }
