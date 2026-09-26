@@ -24,7 +24,7 @@ async function getWeather() {
 } else if (weather.includes("rain")) {
   document.body.style.background = "url('rain.jpg') no-repeat center center fixed";
 } else if (weather.includes("clear")) {
-  document.body.style.background = "url('sunny.jpg') no-repeat center center fixed";
+  document.body.style.background = "url('clear.jpg') no-repeat center center fixed";
 } else if (weather.includes("snow")) {
   document.body.style.background = "url('snow.jpg') no-repeat center center fixed";
 } else {
